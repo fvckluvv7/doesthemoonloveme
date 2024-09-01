@@ -26,6 +26,7 @@ header{
     border-radius: 20px;
     display: flex;
     background: #c5cfd8;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 15);
 }
 
 .logo-img{
@@ -169,10 +170,6 @@ footer .bottom-details .bottom_text{
         margin-bottom: 30px;
     }
 
-    .logo-img{
-        width: 100px;
-    }
-
     .logo{
         font-size: 40px;
     }
@@ -201,14 +198,18 @@ footer .bottom-details .bottom_text{
 
     header{
         margin-bottom: 30px;
+        background: transparent;
+        box-shadow: none;
     }
 
     .logo-img{
-        width: 80px;
+        display: none;
     }
 
     .logo{
-        font-size: 35px;
+        padding-top: 20px;
+        font-size: 40px;
+        color: aliceblue;
     }
     
     .slider-container{
@@ -256,3 +257,4 @@ footer .bottom-details .bottom_text{
     }
 
 }
+
