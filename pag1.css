@@ -22,11 +22,10 @@ body{
 /*header*/
 
 header{
-    background: rgb(197, 207, 216);
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 15);
     display: flex;
+    background: #c5cfd8;
 }
 
 .logo-img{
@@ -37,7 +36,7 @@ header{
 .logo{
     text-align: center; 
     margin: auto;
-    color: black;
+    color: #000;
     font-size: 70px;
     font-family: "gf";
     font-weight: 100;
@@ -222,6 +221,7 @@ footer .bottom-details .bottom_text{
 
     header{
         margin-bottom: 30px;
+        background: transparent;
     }
 
     .logo-img{
@@ -229,7 +229,9 @@ footer .bottom-details .bottom_text{
     }
 
     .logo{
-        font-size: 25px;
+        padding-top: 20px;
+        font-size: 35px;
+        color: aliceblue;
     }
     
     .slider-container{
@@ -247,6 +249,10 @@ footer .bottom-details .bottom_text{
 
     .txt2{
         font-size: 12px;
+    }
+
+    .bottom-details .bottom_text span{
+        font-size: 9px;
     }
 
 }
